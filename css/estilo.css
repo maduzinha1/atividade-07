@@ -1,0 +1,108 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+.intro img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Categorias */
+.categorias ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.categorias li {
+    margin: 10px 0;
+}
+
+/* Produtos */
+.produtos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.produtos li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.produtos img {
+    width: 200px;
+    height: auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* ID e classes adicionais */
+.link-externo a {
+    color: #ff6f61;
+}
+
+.link-externo a:hover {
+    color: #333;
+}
+
+.intro, .categorias, .produtos {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Fontes diferentes */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+p, li {
+    font-family: 'Verdana', sans-serif;
+}
